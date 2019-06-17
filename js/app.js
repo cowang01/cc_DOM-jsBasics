@@ -7,6 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const handleFormClick = function(event){
   const updatedForm = event.preventDefault();
-  const resultForm = document.querySelector('#form_info-result');
+  const resultForm = document.querySelector('#name-result');
   resultForm.textContent = `Who is the burger for: ${this.name.value}`;
 }
